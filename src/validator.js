@@ -60,6 +60,7 @@ const validator = {
   },
 
   maskify(number) {
+    // console.log(number);
     let arrayMask = [];
     let sNumber = number.toString();
 
