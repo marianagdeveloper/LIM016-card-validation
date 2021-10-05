@@ -1,5 +1,6 @@
 /* eslint-disable no-console */
 const validator = {
+
   isValid(number) {
     console.log(number);
     let arrayInverse = [];

@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgba(62, 201, 201, 0.247);
+  /* background-image: url(./woman.jpg); */
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  background: rgb(7, 7, 211);
+}
+
+.header h1 {
+  font-family: "Ephesis", cursive;
+  color: blanchedalmond;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.container {
+  width: 520px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.container .card{
+  margin: auto;
+  text-align: center;
+}
+
+#starting {
+  width: 62%;
+  background-color: rgb(13, 30, 184);
+  color: white;
+  padding: 10px;
+  margin-top: 2px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.habilitado{
+  display: none;
+}
+
+.card fieldset{
+  margin: auto;
+  border-radius: 10px;
+  width: 96%;
+  border: 1px solid blue;
+}
+
+.card fieldset legend{
+  text-align: justify;
+  margin-left: 5%;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-weight: bold;
+ font-size: 18px;
+ color: rgb(10, 10, 126);
+}
+
+.card fieldset input {
+  width: 60%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 18px;
+}
