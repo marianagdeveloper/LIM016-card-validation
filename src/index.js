@@ -39,10 +39,11 @@ function validateCard() {
 
     creditCardNumber = cardNumber;
 
+    alert('Number Target: ' + validator.maskify(creditCardNumber));
     // validator.isValid(creditCardNumber);
-    alert(validator.isValid(creditCardNumber) ? 'valid card number' : 'invalid card number');
+    alert(validator.isValid(creditCardNumber) ? 'Valid Card !!!! ' : 'Invalid Card');
     // validator.maskify(creditCardNumber);
-    alert(validator.maskify(creditCardNumber));
+
 
   })
 }
