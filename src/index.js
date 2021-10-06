@@ -26,7 +26,7 @@ function validateCard() {
   //Button Validate Card
   let divbuttonValidate = document.createElement("div");
   let innerHtml = "";
-  let button = `<input type=button id="starting" value="Validate Number Card">`;
+  let button = `<input type=button id="starting" value="Validate">`;
   divbuttonValidate.innerHTML = innerHtml + button;
   formButtonValidate.appendChild(divbuttonValidate);
 

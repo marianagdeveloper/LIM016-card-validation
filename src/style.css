@@ -4,23 +4,37 @@
 }
 
 body {
-  background-color: rgba(62, 201, 201, 0.247);
+  /* background-color: rgba(62, 201, 201, 0.247); */
   /* background-image: url(./woman.jpg); */
+  font-family: Arial, sans-serif;
+    /* background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
+    /* background: url(./53926-azules-y-negros.jpg) no-repeat; */
+    /* background: url(./81836-azules-y-negros.jpg) no-repeat; */
+    background: url(./fondoazul2.jpg) no-repeat;
+    /* background: url(./fondoazul70.jpg) no-repeat; */
+    /* background: url(https://carontestudio.com/img/contacto.jpg) no-repeat; */
+    background-size:cover;
+    /* background-size: 95rem; */
+    /* height: 100%; */
+    /* height: 800px; */
+    background-position: center center;
+  background-attachment: fixed;
 }
 
 .header {
   position: relative;
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   text-align: left;
-  background: rgb(7, 7, 211);
+  background: rgba(18, 18, 95, 0.925);
 }
 
 .header h1 {
   font-family: "Ephesis", cursive;
-  color: blanchedalmond;
-  font-size: 45px;
-  text-align: center;
+  color: white;
+  font-size: 30px;
+  text-align:left;
+  margin-left: 15px;
   letter-spacing: 0.1em;
 }
 
@@ -28,15 +42,18 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  margin-top: 12px;
 }
 
 .container {
-  width: 520px;
+  width: 450px;
   margin: auto;
   margin-top: 20px;
   background-color: white;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 70px;
+  border: 2px solid rgb(18, 18, 126);
+  /* border-style: solid blue 2px 2px 2px 2px; */
   box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -62,9 +79,10 @@ body {
 }
 
 .card fieldset{
-  margin: auto;
+  /* margin: auto; */
+  margin: 20px;
   border-radius: 10px;
-  width: 96%;
+  width: 90%;
   border: 1px solid blue;
 }
 
@@ -78,9 +96,11 @@ body {
 }
 
 .card fieldset input {
-  width: 60%;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  padding: 5px;
+  width: 75%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px;
   font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid rgb(12, 58, 126);
 }
