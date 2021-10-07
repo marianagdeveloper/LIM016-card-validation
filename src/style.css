@@ -21,7 +21,50 @@ body {
   background-attachment: fixed;
 }
 
-.header {
+section {
+ /* background: blue */
+}
+
+main {
+  line-height: 40px;
+  vertical-align: top;
+  /* background:green; */
+  width: 45%;
+  height:200px;
+  margin: auto;
+  margin-top: 160px;
+  padding: 20px;
+  display: inline-block;
+  
+  
+}
+
+main img { 
+  align-content:  center;
+}
+
+main h1 {
+  text-align: center;
+  /* margin: 200px; */
+  color: rgb(28, 134, 148);
+  background-color:transparent;
+  font-size: 30px;
+}
+
+main h2 {
+  text-align: center;
+  /* margin: 200px; */
+  color: rgb(34, 175, 180);
+  background-color: transparent;
+  font-size: 20px;
+}
+
+aside {
+  /* background:yellow; */
+  /* width: 25%; */
+  display: inline-block;
+}
+header {
   position: relative;
   width: 100%;
   padding: 5px;
@@ -29,12 +72,13 @@ body {
   background: rgba(18, 18, 95, 0.925);
 }
 
-.header h1 {
+header h1 {
   font-family: "Ephesis", cursive;
   color: white;
   font-size: 30px;
   text-align:left;
   margin-left: 15px;
+ 
   letter-spacing: 0.1em;
 }
 
@@ -46,9 +90,10 @@ body {
 }
 
 .container {
-  width: 450px;
+  width: 90%;
   margin: auto;
   margin-top: 20px;
+  /* background-color:red; */
   background-color: white;
   padding: 20px;
   border-radius: 70px;
