@@ -45,32 +45,32 @@ Permite al usuario:
 
 ## Primer prototipo en Power Point
 
-[Primer prototipo en ppt](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/prototipo_ppt_1.png)
+![Primer prototipo en ppt](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/prototipo_ppt_1.png)
 
 ## Segundo prototipo en Power Point
 
-[Segundo prototipo en ppt](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/prototipo_ppt_2.png)
+![Segundo prototipo en ppt](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/prototipo_ppt_2.png)
 
 ### Imagen del prototipo final
 
-[Prototipo final](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/prototipo_ppt_final.png)
+![Prototipo final](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/prototipo_ppt_final.png)
 
 ### Imagen final del proyecto
 
-[Bank Friend](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/bf_product.png)
+![Bank Friend](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/bf_product.png)
 
 ## Tarjeta Valida
 
-[Tarjeta Valida](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/card_valid.png)
+![Tarjeta Valida](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/card_valid.png)
 
 ## Tarjeta Invalida
 
-[Tarjeta Invalida](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/card_invalid.png)
+![Tarjeta Invalida](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/card_invalid.png)
 
 ### Resultado del Testing
 
-[Test](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/test.png)
+![Test](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/test.png)
 
 ### Organización del Trabajo
 
-[Plan de Trabajo](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/plan.png)
+![Plan de Trabajo](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/plan.png)
