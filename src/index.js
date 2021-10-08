@@ -1,63 +1,41 @@
+/* eslint-disable no-console */
 import validator from "./validator.js";
-
-//-----------Diferent values---------------//
-// let creditCardNumber = '42345678'; //true
-let creditCardNumber = "4083952015263"; //false
-// let creditCardNumber = '1'; //false
-
 //Variables
-let cardNumber = "";
-
+let creditCardNumber;
+let innerHtml = "";
 //Div
-// let divCard = document.querySelector(".card");
+let divContenido = document.querySelector(".contenido");
+let divNumberValidate = document.createElement("div");
 
-//Forms
-let formButtonValidate = document.querySelector("#buttonvalidate");
-// let formNumberCard = document.querySelector("#numbercard")
+//EventListener btn Validate
+document.querySelector("#btn-modal").addEventListener("click", (evt) => {
+  console.log(evt);
+  //Credit Card Number
+  creditCardNumber = document.querySelector("#number").value;
 
-//Validator Boilerplace
-// validator.isValid(creditCardNumber);
-// validator.maskify(creditCardNumber);
+  //Add results in Contenido
+  innerHtml = "";
+  if (creditCardNumber != "") {
+    let pMaskify = `<p><b>Credit Card Number:</b> ${validator.maskify(
+      creditCardNumber
+    )} </p>`;
+    let pIsValid = `<p><b>Validation result:</b> ${
+      validator.isValid(creditCardNumber) ? "Valid Card !!!! " : "Invalid Card"
+    }</p>`;
+    divNumberValidate.innerHTML = innerHtml + pMaskify + pIsValid;
+  } else {
+    let mesage = `<b><p>You must enter a valid number</b></p>`
+    divNumberValidate.innerHTML = innerHtml + mesage;
+  }
+  divContenido.appendChild(divNumberValidate);
+});
 
-//Main
-validateCard();
-
-function validateCard() {
-  //Button Validate Card
-  let divbuttonValidate = document.createElement("div");
-  let innerHtml = "";
-  let button = `<input type=button id="starting" value="Validate">`;
-  divbuttonValidate.innerHTML = innerHtml + button;
-  formButtonValidate.appendChild(divbuttonValidate);
-
-  //EventListener divCar(display none)
-  document.querySelector("#starting").addEventListener('click', evt =>{
-    // divCard.classList.add("habilitado");
-    // showFormNumber();
-    cardNumber = document.querySelector("#number").value;
-    // alert(cardNumber);
-
-    creditCardNumber = cardNumber;
-
-    alert('Number Target: ' + validator.maskify(creditCardNumber));
-    // validator.isValid(creditCardNumber);
-    alert(validator.isValid(creditCardNumber) ? 'Valid Card !!!! ' : 'Invalid Card');
-    // validator.maskify(creditCardNumber);
-
-
-  })
-}
-
-// function showFormNumber() {
-//   //Form Validate Card
-//   // let divFormValidate = document.createElement("div");
-//   // let h2 = document.createElement("h2");
-//   // h2.innerHTML= `Validate Number Target`;
-//   // divFormValidate.appendChild(h2);
-//   // let innerHtml = "";
-//   // let form = `<fieldset type=button id="starting" value="Validate New Card">`;
-//   // divFormValidate.innerHTML = innerHtml + form;
-
-// }
-
-
+//EventListener btn Close
+document.querySelector("#close").addEventListener("click", (evt) => {
+  console.log(evt);
+  //Clean
+  document.querySelector("#number").value = "";
+  if (divNumberValidate.firstChild) {
+    divNumberValidate.removeChild(divNumberValidate.firstChild);
+  }
+});

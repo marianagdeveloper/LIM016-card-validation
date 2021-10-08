@@ -18,24 +18,28 @@
     <section>
       <main>
         <h1>Validate your new Credit Card</h1>
-        <h2>Now validating your new card is very easy, you just have to enter the card number and that's it !!</h2>
-        <!-- <img style="float:right" src="./woman2.jpg" alt=""/> -->
+        <h2>
+          Now validating your new card is very easy, you just have to enter the
+          card number and that's it !!
+        </h2>
       </main>
       <aside>
         <div class="container">
           <div class="card">
-            <img src="./tarjetabb80.jpg" alt="" class="center" />
-            <!-- <h2>Card number</h2>
-            <input type="text" id="number"> -->
+            <img src="./public/tarjetabb80.jpg" alt="" class="center" />
             <fieldset>
               <legend>Card Number</legend>
-              <input type="text" id="number">
-              <form action="" id="buttonvalidate"></form>
+              <input type="text" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;" id="number" />
+              <input type="checkbox" id="btn-modal" />
+              <label for="btn-modal" class="lbl-modal">Validate</label>
+              <div class="modal">
+                <div class="contenedor">
+                  <header>CREDIT CARD VALIDATION</header>
+                  <label for="btn-modal" id="close">X</label>
+                  <div class="contenido"></div>
+                </div>
+              </div>
             </fieldset>
-  
-          </div>
-          <div class="numbercard">
-            <form action="" id="numbercard"></form>
           </div>
         </div>
       </aside>

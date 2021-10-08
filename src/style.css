@@ -4,66 +4,46 @@
 }
 
 body {
-  /* background-color: rgba(62, 201, 201, 0.247); */
-  /* background-image: url(./woman.jpg); */
   font-family: Arial, sans-serif;
-    /* background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
-    /* background: url(./53926-azules-y-negros.jpg) no-repeat; */
-    /* background: url(./81836-azules-y-negros.jpg) no-repeat; */
-    background: url(./fondoazul2.jpg) no-repeat;
-    /* background: url(./fondoazul70.jpg) no-repeat; */
-    /* background: url(https://carontestudio.com/img/contacto.jpg) no-repeat; */
-    background-size:cover;
-    /* background-size: 95rem; */
-    /* height: 100%; */
-    /* height: 800px; */
-    background-position: center center;
+  background: url(./public/fondoazul2.jpg) no-repeat;
+  background-size: 100vw 100vh;
+  background-position: center center;
   background-attachment: fixed;
-}
-
-section {
- /* background: blue */
 }
 
 main {
   line-height: 40px;
   vertical-align: top;
-  /* background:green; */
-  width: 45%;
-  height:200px;
+  width: 600px;
+  height: 200px;
   margin: auto;
   margin-top: 160px;
   padding: 20px;
   display: inline-block;
-  
-  
 }
 
-main img { 
-  align-content:  center;
+main img {
+  align-content: center;
 }
 
 main h1 {
   text-align: center;
-  /* margin: 200px; */
   color: rgb(28, 134, 148);
-  background-color:transparent;
+  background-color: transparent;
   font-size: 30px;
 }
 
 main h2 {
   text-align: center;
-  /* margin: 200px; */
   color: rgb(34, 175, 180);
   background-color: transparent;
   font-size: 20px;
 }
 
 aside {
-  /* background:yellow; */
-  /* width: 25%; */
   display: inline-block;
 }
+
 header {
   position: relative;
   width: 100%;
@@ -76,9 +56,8 @@ header h1 {
   font-family: "Ephesis", cursive;
   color: white;
   font-size: 30px;
-  text-align:left;
+  text-align: left;
   margin-left: 15px;
- 
   letter-spacing: 0.1em;
 }
 
@@ -93,59 +72,131 @@ header h1 {
   width: 90%;
   margin: auto;
   margin-top: 20px;
-  /* background-color:red; */
   background-color: white;
   padding: 20px;
   border-radius: 70px;
   border: 2px solid rgb(18, 18, 126);
-  /* border-style: solid blue 2px 2px 2px 2px; */
   box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
 }
 
-.container .card{
+.container .card {
   margin: auto;
   text-align: center;
 }
 
-#starting {
-  width: 62%;
-  background-color: rgb(13, 30, 184);
-  color: white;
-  padding: 10px;
-  margin-top: 2px;
-  border: none;
-  border-radius: 10px;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.habilitado{
+.habilitado {
   display: none;
 }
 
-.card fieldset{
-  /* margin: auto; */
+.card fieldset {
   margin: 20px;
   border-radius: 10px;
   width: 90%;
   border: 1px solid blue;
 }
 
-.card fieldset legend{
+.card fieldset legend {
   text-align: justify;
   margin-left: 5%;
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- font-weight: bold;
- font-size: 18px;
- color: rgb(10, 10, 126);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(10, 10, 126);
 }
 
 .card fieldset input {
   width: 75%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 20px;
   padding: 10px;
   font-size: 18px;
   border-radius: 10px;
   border: 2px solid rgb(12, 58, 126);
 }
+
+.modal{
+  width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+}
+
+#btn-modal:checked ~ .modal{
+	opacity: 1;
+	visibility: visible;
+}
+
+.contenedor{
+	width: 400px;
+	height: 200px;
+	background: #fff;
+	box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
+	transition: all 500ms ease;
+	position: relative;
+	transform: translateY(-30%);
+  border: 1px solid rgb(18, 18, 126);
+}
+
+#btn-modal:checked ~ .modal .contenedor{
+	transform: translateY(0%);
+}
+
+.contenedor header{
+  box-sizing: border-box;
+	padding: 10px;
+	background: #1934ce;
+	color: #fff;
+}
+
+.contenedor label{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.contenido{
+	width: 100%;
+	padding: 10px;
+}
+
+.contenido p{
+	margin-bottom: 7px;
+  padding: 15px;
+}
+
+#btn-modal{
+	display: none;
+}
+
+.lbl-modal{
+  display: block;
+  width: 62%;
+  background-color: rgb(13, 30, 184);
+  color: white;
+  padding: 10px;
+  margin:auto;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+	.contenedor{
+		width: 95%;
+	}
+}
+
