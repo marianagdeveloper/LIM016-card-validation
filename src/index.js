@@ -11,7 +11,7 @@ let divNumberValidate = document.createElement("div");
 document.querySelector("#btn-modal").addEventListener("click", (evt) => {
   console.log(evt);
   //Credit Card Number
-  creditCardNumber = document.querySelector("#number").value;
+  creditCardNumber = validator.isNumber(document.querySelector("#number").value);
 
   //Add results in Contenido
   innerHtml = "";

@@ -13,7 +13,7 @@ const validator = {
 
     //Array Reverse
     arrayInverse = sNumber.split("").reverse();
-    console.log(arrayInverse);
+    // console.log(arrayInverse);
 
     //Number in Even Position: 2,4,6,8...
     for (let index = 0; index < arrayInverse.length; index++) {
@@ -21,10 +21,11 @@ const validator = {
         const evenPosition = arrayInverse[index] * 2;
         arrayEvenOdd[index] = evenPosition;
       } else {
+        //Number in Odd Position: 3,5,7...
         arrayEvenOdd[index] = arrayInverse[index];
       }
     }
-    console.log(arrayEvenOdd);
+    // console.log(arrayEvenOdd);
 
     //Number is greater than 10
     for (let index = 0; index < arrayEvenOdd.length; index++) {
@@ -36,21 +37,22 @@ const validator = {
           numberTemporaryAdd += numberTemporaryInt;
         });
         arrayTotal[index] = numberTemporaryAdd;
-        //restart values
+        //Restart values
         numberTemporaryAdd = 0;
         numberTemporaryInt = 0;
       } else {
+        //Number is less than 10
         arrayTotal[index] = parseInt(arrayEvenOdd[index]);
       }
     }
 
     //isValid
-    console.log(arrayTotal);
+    // console.log(arrayTotal);
     let result = 0;
     arrayTotal.forEach((element) => {
       result += element;
     });
-    console.log(result);
+    // console.log(result);
     return result % 10 == 0 ? true : false;
 
     /*arrayInverse:  ['8', '7', '6', '5', '4', '3', '2', '1']
@@ -74,9 +76,13 @@ const validator = {
       }
     }
     let result = arrayMask.join("");
-    console.log(result);
+    // console.log(result);
     return result;
   },
+
+  isNumber(number) {
+    return number.replace(/\s+/g, '');
+  }
 };
 
 export default validator;
