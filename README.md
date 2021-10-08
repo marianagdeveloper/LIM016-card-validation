@@ -59,15 +59,15 @@ Permite al usuario:
 
 ### Imagen final del proyecto VERSION 1.0
 
-![Bank Friend](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/bf_product.png)
+![Bank Friend VERSION 1.0](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/version1.png)
 
 ### Imagen final del proyecto VERSION 2.0
 
-![Bank Friend](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/bf_product.png)
+![Bank Friend VERSION 2.0](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/version2.png)
 
 ### Imagen final del proyecto VERSION 3.0
 
-![Bank Friend](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/bf_product.png)
+![Bank Friend VERSION 3.0](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/bf_product.png)
 
 ### Resultado de Validación: Tarjeta Valida
 
