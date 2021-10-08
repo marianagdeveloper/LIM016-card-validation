@@ -41,7 +41,7 @@ Permite al usuario:
 
 ## Primer prototipo en papel
 
-![Primer prototipo en papel](relative\src\public\prototipo_papel.png?raw=true)
+![Primer prototipo en papel](relative\src\public\prototipo_papel.png?raw=true "T")
 
 ## Primer prototipo en Power Point
 
