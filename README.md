@@ -41,7 +41,7 @@ Permite al usuario:
 
 ## Primer prototipo en papel
 
-![Primer prototipo en papel](relative\src\public\prototipo_papel.png?raw=true "T")
+![Primer prototipo en papel](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3/src/public/prototipo_papel.png)
 
 ## Primer prototipo en Power Point
 
