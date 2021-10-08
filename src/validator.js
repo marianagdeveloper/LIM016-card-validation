@@ -79,10 +79,6 @@ const validator = {
     // console.log(result);
     return result;
   },
-
-  isNumber(number) {
-    return number.replace(/\s+/g, '');
-  }
 };
 
 export default validator;

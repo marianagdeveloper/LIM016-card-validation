@@ -11,7 +11,7 @@ let divNumberValidate = document.createElement("div");
 document.querySelector("#btn-modal").addEventListener("click", (evt) => {
   console.log(evt);
   //Credit Card Number
-  creditCardNumber = validator.isNumber(document.querySelector("#number").value);
+  creditCardNumber = isNumber(document.querySelector("#number").value);
 
   //Add results in Contenido
   innerHtml = "";
@@ -39,3 +39,7 @@ document.querySelector("#close").addEventListener("click", (evt) => {
     divNumberValidate.removeChild(divNumberValidate.firstChild);
   }
 });
+
+function isNumber(number) {
+  return number.replace(/\s+/g, '');
+}
