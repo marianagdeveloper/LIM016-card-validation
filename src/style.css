@@ -11,15 +11,21 @@ body {
   background-attachment: fixed;
 }
 
+section {
+  display: flex;
+  width: 82%;
+  /* background-color: aqua; */
+}
+
 main {
   line-height: 40px;
   vertical-align: top;
-  width: 600px;
+  width: 50%;
   height: 200px;
   margin: auto;
-  margin-top: 160px;
-  padding: 20px;
+  margin-top: 28vh;
   display: inline-block;
+  /* background-color: black; */
 }
 
 main img {
@@ -42,6 +48,7 @@ main h2 {
 
 aside {
   display: inline-block;
+  /* background-color: red; */
 }
 
 header {
@@ -136,7 +143,7 @@ header h1 {
 }
 
 .contenedor{
-	width: 400px;
+	/* width: 400px; */
 	height: 200px;
 	background: #fff;
 	box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
