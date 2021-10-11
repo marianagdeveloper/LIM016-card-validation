@@ -27,6 +27,10 @@ El producto resuelve el problema del usuario al permitirle validar su nueva tarj
 de forma rápida y sencilla a través de una aplicación web, por lo que no debe asistir de forma presencial 
 a la oficina bancaria para realizar dicho procedimiento.
 
+### Historia de Usuario
+
+![Historia de Uusario](https://github.com/marianagdeveloper/LIM016-card-validation/blob/mariana_mvp_v3_flex/src/public/user%20history.png)
+
 ### Interfaz de usuario (UI)
 
 Permite al usuario:
