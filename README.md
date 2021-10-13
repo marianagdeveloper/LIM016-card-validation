@@ -20,7 +20,7 @@ En general, los usuarios son estudiantes universitarios que están aperturando s
 
 #### Cuáles son los objetivos de estos usuarios en relación con tu producto:
 El objetivo del usuario es verificar si el número de la tarjeta recibida es válido para continuar 
-con el proceso de configuración de la tarjeta. De no ser valida deberá devolver la tarjeta y solicitar una nueva.
+con el proceso de activación de la tarjeta. De no ser valida deberá devolver la tarjeta y solicitar una nueva.
 
 #### Cómo crees que el producto que estás creando está resolviendo sus problemas:
 El producto resuelve el problema del usuario al permitirle validar su nueva tarjeta de crédito 
