@@ -11,6 +11,8 @@ del último ciclo para recibir los pagos correspondientes a las pasantías o al 
 Es por ello, que la Oficina de Convenios del banco Bank Friend ha solicitado el desarrollo de una aplicación web
 que le permita a los usuarios validar sus nuevas tarjetas de crédito de forma rápida, fácil y segura.
 
+Link: https://marianagdeveloper.github.io/LIM016-card-validation/
+
 ### Definición del producto
 
 #### Quiénes son los principales usuarios de producto: 
