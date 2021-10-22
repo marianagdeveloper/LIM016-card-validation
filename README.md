@@ -1,4 +1,4 @@
-## Bank Friend - Validación de nuevas tarjetas de crédito 
+## Bank Friend (Banco Amigo) - Validación de nuevas tarjetas de crédito 
 
 El banco Bank Friend (EEUU), ha establecido un convenio con la Universidad Marítima Atlántica (EEUU) por un periodo de un (01) año,
 con el fin de capacitar en el área de finanzas a los estudiantes del último ciclo de la casa de estudio, preparando así 
